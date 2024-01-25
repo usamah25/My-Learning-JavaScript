@@ -37,7 +37,7 @@ year = 2022;
 console.log(typeof year);
  */
 
-let age = 20;
+/* let age = 20;
 age = 21;
 
 const birthYear = 2003;
@@ -46,5 +46,36 @@ const birthYear = 2003;
 var job = "Student";
 job = "Developer";
 
+// penulisan yang tidak di anjurkan karena tidak mendeklarasikan sebuah variabelnya walaupun akan tetap di jalankan oleh javascript nya
 lastName = 'Hanif';
-console.log(lastName);
+console.log(lastName); 
+*/
+
+// math operators
+const now = 2037;
+const ageUsamah = now - 2003;
+const ageSarah = now - 2019;
+console.log(ageUsamah, ageUsamah);
+
+console.log(ageUsamah * 2, ageUsamah / 10, 2 ** 3);
+
+const firstName = 'Usamah';
+const lastName = 'Hanif';
+console.log(firstName + ' ' + lastName);
+
+// assigment operators
+let x = 10 - 15;
+x += 10; // x = x + 10 = 25
+x *= 4; // x = x * 4 = 100
+x++; // x = x + 1
+x--;
+x--;
+console.log(x);
+
+// comparison operators
+console.log(ageUsamah > ageSarah); // >, <, >=, <=
+console.log(ageSarah >= 18);
+
+const isFullAge = ageSarah >= 18;
+
+console.log(now - ageUsamah > now - ageSarah);
