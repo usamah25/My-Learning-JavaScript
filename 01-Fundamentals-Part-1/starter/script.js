@@ -19,7 +19,7 @@ let myCurrentJob = "Student";
 console.log(myFirstJob);
 */
 
-let javascriptIsFun = true;
+/* let javascriptIsFun = true;
 console.log(javascriptIsFun);
 
 console.log(typeof true);
@@ -35,3 +35,16 @@ console.log(year);
 console.log(typeof year);
 year = 2022;
 console.log(typeof year);
+ */
+
+let age = 20;
+age = 21;
+
+const birthYear = 2003;
+// birthYear = 2000;
+
+var job = "Student";
+job = "Developer";
+
+lastName = 'Hanif';
+console.log(lastName);
