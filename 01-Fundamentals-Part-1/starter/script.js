@@ -50,7 +50,7 @@ job = "Developer";
 lastName = 'Hanif';
 console.log(lastName); 
 */
-
+/* 
 // math operators
 const now = 2037;
 const ageUsamah = now - 2003;
@@ -79,3 +79,20 @@ console.log(ageSarah >= 18);
 const isFullAge = ageSarah >= 18;
 
 console.log(now - ageUsamah > now - ageSarah);
+*/
+
+// type conversion
+const inputYear = '1991';
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear), 18);
+
+console.log(Number('Jonas'));
+console.log(typeof NaN);
+
+console.log(String(23), 23);
+
+// type coercion
+console.log("I'am" + 23 + 'years old' );
+console.log('23' - '10' - 3);
+console.log('23' * '2');
+console.log('23' / '2');
